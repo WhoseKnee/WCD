@@ -7,16 +7,19 @@
  * HTML5 and CSS3 Illustrated Unit C, Lessons
  */
 
-h1 {background-color: lightblue
+h1 {
+    background-color: lightblue;
+    color: navy;
     
 }
 
 footer {
     background-color: lightblue;
+    color:navy;
     text-align:right;
 }
 
 #contactno {
-    color: red
+    color: maroon;
 }
 
