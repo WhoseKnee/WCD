@@ -10,10 +10,15 @@
 /* body and page container */
 body {
    background-color: floralwhite;
+   margin: 0;
+   padding:0;
 }
 .container {
    background-color: burlywood;
-   float:left;
+   width: 670px;
+   margin: 0 auto;
+   padding:0;
+   border:1.5px solid blue;
 }
 
 /* headings */
@@ -21,24 +26,47 @@ header {
    text-align: center;
    color: navy;
    background-color: lightblue;
+   padding: 0.5em 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
 /* main content */
 article {
    background-color: white;
    float:right;
+   width:60%;
+   margin: 0;
+   padding: 0 0 0 1em;
+   position:relative;
+   margin:0;
 }
 
 /* sidebar */
 aside {
    background-color: burlywood;
+   width:30%;
    float:left;
+   padding:1em;
+   max-height: 236.63px;
+   position: relative;
+   margin:0;
 }
+
 
 /* footer section */
 footer {
    color: navy;
    background-color: lightblue;
    text-align: right;
-   clear:left;
+   clear:right;
+   padding:0.5em;
+   margin:0;
+}
+
+footer p {
+  margin:0;
 }
