@@ -13,6 +13,7 @@ body {
 }
 .container {
    background-color: burlywood;
+   float:left ;
 }
 
 /* headings */
@@ -25,6 +26,7 @@ header {
 /* main content */
 article {
    background-color: white;
+   float:right
 }
 
 /* sidebar */
@@ -37,4 +39,5 @@ footer {
    color: navy;
    background-color: lightblue;
    text-align: right;
+   clear: left;
 }
