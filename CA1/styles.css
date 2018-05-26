@@ -1,0 +1,256 @@
+﻿/* 
+   Kneeaudio style sheet 
+   Filename: styles.css
+
+   Author: Muhammad Husni Bin Mohammed Haron  
+   Date: 27/5/2018     
+ */
+
+/* reset styles */
+html {
+   font-size: 12px;
+}
+article, body, div, footer, header, h1, h2, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body and page container */
+body {
+   font-family: Verdana, Geneva, sans-serif;
+   background-color: rgb(253,245,230);
+}
+.container {
+   margin: 0 auto;
+   background-color: #7f7f7f;
+   position: relative;
+}
+p {
+   font-size: 1.4em;
+}
+
+/* header section */
+header {
+   padding: 0.5em;
+   text-align: center;
+   background-color: #000000;
+   font-family: Arial, sans-serif;
+   font-weight: 900;
+}
+header h1 {
+   font-size: 3.2em;
+   color:white;
+}
+
+/* main content */
+article {
+   width: 75%;
+   padding: 3%;
+   padding-bottom: 100px;
+   float: left;
+   background-color: #FFF;
+}
+article div.container {
+   padding: 2%;
+   background-color: white;
+}
+article h2 {
+   margin-bottom: 0.4em;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 900;
+   font-size: 47;
+   color: maroon;
+}
+article h3 {
+   margin-bottom: 0.4em;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 900;
+   font-size: 35;
+   color: black;
+
+}
+article p {
+   font-family: 'Myriad Pro Regular',Arial,sans-serif;
+   font-size: 30;
+   margin: 0.8em 1em 0.8em 1em;
+   margin-left: 0.4em;
+}
+
+article span {
+   font-weight: bold;
+}
+article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 850px;
+  max-height: 650px;
+}
+/* latest image*/
+#latest {
+  display:block;
+  margin: 1em 1em 0.8em 1em;
+}
+/* article hobby */
+#arthobby {
+  background-color:#c3c3c3;
+}
+#arthobby div.container {
+  background-color:#c3c3c3;
+}
+#arthobby h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+  color: #FFF;
+  font-size: 37;
+  margin-bottom: 1em;
+}
+/* article gear */
+#artgear h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+  font-size: 47;
+  margin-bottom: 0.6em;
+}
+#artgear p {
+  display:inline-block;
+  font-size: 27;
+  font-weight: 800;
+  margin-left: 121px;
+}
+/* sidebar */
+aside {
+   position: sticky;
+   top: 30;
+   width: 15%;
+   padding: 2%;
+   float: right;
+   background-color: #7f7f7f;
+}
+aside h2 {
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:600;
+  font-size: 2em;
+}
+aside p {
+   padding: 0.4em;
+   margin-bottom: 0.6em;
+   font-size: 20;
+   font-family: 'Myriad Pro Regular',Arial,sans-serif;
+   font-weight:80;
+   color:white;
+}
+aside img {
+   margin:auto;
+}
+/* footer section */
+footer {
+   padding: 0.5em;
+   clear: both;
+   text-align: right;
+   background-color: #000;
+}
+/* link adjustments */
+a:active {
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+a:link {
+  color:#FFF;
+  text-decoration: none;
+}
+a:visited {
+  color:gray;
+}
+a:hover {
+  color:#000;
+  background-color: #FFF;
+}
+a:focus {
+  color:#000;
+  background-color: #FFF;
+}
+/* site navigation */
+nav.sitenavigation {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10000000;
+}
+nav.sitenavigation p {
+  display:inline-block;
+  margin-left:2.5em;
+  margin-right:2.5em;
+  margin-bottom:0.5em;
+}
+nav.sitenavigation a:link{
+  text-decoration: none;
+}
+/* skip navigation */
+p.skipnavigation a:link {
+  text-decoration: none;
+  background-color: #000;
+  color: #000; 
+}
+p.skipnavigation {
+  font-family: sans-serif;
+  text-align: left;
+  color: #000;
+  background: #000;
+
+}
+p.skipnavigation a:active {
+  top: 0;
+  left: 0;
+  color: black;
+  background-color: black;
+}
+p.skipnavigation a:focus {
+  color: #FFF;
+  top: 0.2em;
+  left: 0.4em;
+  z-index: 2;
+}
+p.skipnavigation a:visited {
+  color: #000;
+}
+/* line break */
+.linebr {
+  background: #000;
+  height: 3px;
+  margin: 30;
+}
+/* gear links */
+#artgear a:link {
+  color:#000;
+}
+#artgear a:focus p {
+  background-color: #000;
+  color: #FFF;
+}
+#artgear a:hover p {
+  background-color: #000;
+  color: #FFF;
+}
+/* here link */
+#here a:link {
+  color:#000;
+}
+#here a:focus {
+  background-color: #000;
+  color: #FFF;
+}
+#here a:hover {
+  background-color: #000;
+  color: #FFF;
+}
+/* figure caption adjustments */
+figcaption {
+  display: block;
+  margin-left: 0.1em;
+}
