@@ -123,6 +123,7 @@ aside {
    position: sticky;
    top: 30;
    width: 15%;
+   height: 89%;
    padding: 2%;
    float: right;
    background-color: #7f7f7f;
@@ -148,8 +149,13 @@ aside img {
 footer {
    padding: 0.5em;
    clear: both;
-   text-align: right;
+   text-align: left;
    background-color: #000;
+   z-index: 10000;
+}
+footer p{
+   color:white;
+   z-index: 10000;
 }
 /* link adjustments */
 a:active {
@@ -180,7 +186,7 @@ nav.sitenavigation {
   padding-top: 10px;
   position: sticky;
   top: 0;
-  z-index: 10000000;
+  z-index: 1000;
 }
 nav.sitenavigation p {
   display:inline-block;
