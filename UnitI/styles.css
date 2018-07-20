@@ -52,12 +52,12 @@ p.skipnavigation a:focus {
    left: 0.4em;
    top: 0.4em;
    background-color: white;
-   color: black;
+   color: black;  
 }
 
 /* header section */
 header {
-   width: 80%;
+   width: 68%;
    float: left;
    min-height: 60px;
    padding: 0 1%;
@@ -79,11 +79,11 @@ header div {
 
 /* site navigation */
 nav.sitenavigation {
-   width: 18%;
-   padding: 5% 1%;
+   width: 28%;
+   padding: 9.545% 1%;
    float: right;
    position: relative;  
-   background-color: black;
+   background-color: #bdccd4;
    position: relative; 
    top: 0;
    right: 0;
@@ -195,7 +195,7 @@ footer {
    margin: 0.75in;
 }
 
-@media screen and (min-width: 880px){
+@media screen and (min-width: 800px){
    header{
      float:none;
      width:auto;
@@ -206,6 +206,7 @@ footer {
    nav.sitenavigation{
      width:100%;
      padding: 0;
+     background-color: #000000;
    }
    nav.sitenavigation ul {
      border:none;
@@ -217,4 +218,9 @@ footer {
    nav.sitenavigation li {
      display: inline-block;
    }
+}
+@media screen and (max-width: 1099px){
+  img.browsing {
+    display:none;
+  }
 }
