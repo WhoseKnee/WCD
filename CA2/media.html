@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kneeaudio - Media</title>
+        <!--
+        Kneeaudio media page
+        Filename: media.html
+
+        Author: Muhammad Husni Bin Mohammed Haron  
+        Date: 27/5/2018     
+        -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" user-scalable=yes>
+        <script src="modernizr.custom.40753.js"></script>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="fotorama/fotorama.js"></script>
+        <link  href="fotorama/fotorama.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+            <div class="container">
+                    <header>
+                        <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+                        <img id="logofront"src="images/logo.png"> 
+                    </header>
+                    <nav class="sitenavigation">
+                       <div class="nonmobilenav">
+                          <p><a href="index.html">Home</a></p>
+                          <p><a href="about.html">About</a></p>
+                          <p><a href="gear.html">G.E.A.R</a></p>
+                          <p><a href="media.html">Media</a></p>
+                       </div>
+                       <div class="topnav" id="myTopnav">
+                            <a href="media.html" class="active">Media</a>
+                            <a href="index.html">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="gear.html">G.E.A.R</a>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                    </nav>
+                    <article>
+                       <div class="cont">
+                        <img class="headingimg" id="mediaphot" src="images/mediaphoto.jpg"> 
+                        <p id="mediainfo">This is where you can get all the photos used on the website. 
+                            I also put in my current Top 5 Music I am listening monthly. 
+                            If you would like to suggest new music, you can do so through <span><a href="feedback.html">feedback</a></span>.</p>
+                        <br>
+                        <h3>Gallery</h3>
+                        <div class="fotorama">
+                            <img src="images/dt990 - head bw.jpg">
+                            <img src="images/dt990 - hp bw.jpg">
+                            <img src="images/t50rp - hand carry bw.jpg">
+                            <img src="images/t50rp - hp bw.jpg">
+                            <img src="images/t50rp - top table bw.jpg">
+                        </div>
+                        <br>
+                        <h3>Music</h3>
+                        <p>sakanaction - Shin Takarajima</p>
+                        <iframe width="560" 
+                        height="315" src="https://www.youtube.com/embed/LIlZCmETvsY" 
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <p>Coldplay - Don't Panic</p>
+                        <iframe width="560" 
+                        height="315" src="https://www.youtube.com/embed/yWeuUwpEQfs" 
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <p>toe - Goodbye</p>
+                        <iframe width="560" 
+                        height="315" src="https://www.youtube.com/embed/SaicC0AFwUc" 
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <p>frederic - Oddloop</p>
+                        <iframe width="560" 
+                        height="315" src="https://www.youtube.com/embed/PCp2iXA1uLE" 
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <p>GoGo Penguin - Transient State</p>
+                        <iframe width="560" 
+                        height="315" src="https://www.youtube.com/embed/IN3pq3uCmFI" 
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                       </div>
+                    </article>
+                    <footer>
+                        <div class="footerword">
+                            <p><a href="sitemap.html">Sitemap</a></p>
+                            <p><a href="feedback.html">Feedback</a></p>
+                            <p id="copywrite">&copy; Husni Haron </p>
+                        </div>
+                    </footer>
+                 </div>
+                 <script src="script.js"></script>
+                 <script src="jquery.min.js"></script>
+                <script src="jquery.fitvids.js"></script>
+                <script>$(document).ready(function(){
+                        $(".cont").fitVids();
+                      });</script>
+    </body>
+
+</html>
