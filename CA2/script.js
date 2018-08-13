@@ -7,7 +7,3 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-$(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $(".cont").fitVids();
-  });

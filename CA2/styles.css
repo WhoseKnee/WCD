@@ -432,19 +432,20 @@ input[type=submit] {
     width: 90%;
   }
   article h2{
-    font-size: 36px;
+    font-size: 31px;
   }
   article h3{
-    font-size: 26px;
+    font-size: 21px;
   }
   article p{
-    font-size: 20px;
+    font-size: 15px;
+    text-align: justify;
   }
   .artgear h1{
-    font-size: 36px;
+    font-size: 31px;
   }
   .artgear p{
-    font-size: 20px;
+    font-size: 15px;
   }
   #logofront{
     width: 60%;
